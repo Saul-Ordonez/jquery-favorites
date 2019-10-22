@@ -15,3 +15,11 @@ img{
   height: 400px;
   width: 400px;
 }
+
+.font-to-serif{
+  font-family: serif;
+}
+
+.img-shape{
+  border-radius: 50%;
+}
