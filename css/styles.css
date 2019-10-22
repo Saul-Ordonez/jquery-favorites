@@ -23,3 +23,7 @@ img{
 .img-shape{
   border-radius: 50%;
 }
+
+body{
+  background-color: #14809c;
+}

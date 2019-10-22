@@ -2,6 +2,7 @@ $(document).ready(function() {
   $(".clickable1").click(function(){
     $("#initial-hidden").slideToggle();
     $("#initial-showing").slideToggle();
+    console.log("test")
   });
 
   $(".clickable2").click(function(){
