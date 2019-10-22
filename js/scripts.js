@@ -31,6 +31,10 @@ $(document).ready(function() {
   $("#change-reset").click(function(){
     $("body").removeClass();
     $("img").removeClass();
-    console.log("test")
+    $(".well").removeClass("well-color");
+  });
+  $("#change-color").click(function(){
+    $(".well").addClass("well-color");
+
   });
 });

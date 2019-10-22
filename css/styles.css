@@ -27,3 +27,21 @@ img{
 body{
   background-color: #14809c;
 }
+
+.well-color{
+  background-color: red;
+  animation-name: colorcycle;
+  animation-duration: 10s;
+  animation-iteration-count: 900000;
+}
+@keyframes colorcycle {
+  0%   {background-color: red;}
+  25%  {background-color: pink;}
+  50%  {background-color: orange;}
+  75% {background-color: purple;}
+  100% {background-color: red;}
+}
+
+.buttons {
+  text-align: center;
+}
