@@ -9,4 +9,15 @@ $(document).ready(function() {
     $("#initial-showing2").slideToggle();
   });
 
+  $(".clickable3").click(function(){
+    $("#initial-hidden3").slideToggle();
+    $("#initial-showing3").slideToggle();
+  });
+
+  $(".clickable4").click(function(){
+    $("#initial-hidden4").slideToggle();
+    $("#initial-showing4").slideToggle();
+  });
+
+
 });
